@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400);
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT);
+/* CSS Document */
+
+/* ------Elements--------- */
+body {
+	color: #2C2C2C;
+	font: normal 100% 'Open Sans', sans-serif;
+	background-color: #262626;
+}
+
+div {
+	padding: 0px;
+}
+
+img {
+	max-width: 100%;
+	margin: 0px auto 0px auto;
+}
+
+p {
+}
+
+/* ---------IDs----------- */
+
+#page {
+	width: 80%;
+	max-width: 900px;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+	padding-bottom: 2em;
+}
+
+#header img {
+}
+
+#nav {
+	margin-left: -1.75em;
+	margin-top: -2em;
+	height: 3em;
+	position: absolute;
+}
+
+#nav a {
+	padding-right: 1em;
+	padding-left: 1em;
+	line-height: 2.5em;
+	text-decoration: none;
+	font-family: 'Old Standard TT', serif;
+	color: #FFFFFF;
+	font-size: 1.25em;
+}
+
+#nav a:hover {
+	color: #2C2C2C;
+}
+
+.one, .two, .three, .four {
+	display: block;
+	float: left;
+	height: 3em;
+	text-align: center;
+	background: linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,0.1)), #f06;
+}
+
+.one {
+	background-color: #A9D18E;
+}
+
+.two {
+	/*same as unvisited link color*/
+	background-color: #72A6D6;
+}
+
+.three {
+	/*same as visited link color*/
+	background-color: #B686DA;
+}
+
+.four {
+	background-color: #F19B61;
+}
+
+.in_right {
+	width: 270px; /* FIX THIS */
+	display: block;
+	float: right;
+	padding-right: 25px;
+}
+
+.imagespace  {
+	margin-left: 1.25em;
+}
+
+#main {
+}
+
+#main h1 {
+	font-family: 'Old Standard TT', serif;
+	font-size: 3em; /* 32/16 = 2.5 */
+	margin: 0 .4167em 0 .41667em; /* 20/32 = .5 */
+	padding-top: .5em;
+	clear: both;
+}
+
+#main h2 {
+	font-size: 2em; /* 18 / 16 = 1.125 */
+	margin: 1em 1.25em 0 .625em; /* 20/16 = 1.25em */
+	font-family: 'Old Standard TT', serif;
+}
+
+#main h3 {
+	font-size: 1em; /* 16 / 16 = 1 */
+	font-weight: bold;
+	margin: 1em 1.25em 0 1.25em; /* 20/16 = 1.25em */
+}
+
+#main p {
+	font-family: 'Open Sans', sans-serif;
+	margin: .5em 1.25em 0 1.25em; /* 20 / 16 = 1.25 */
+}
+
+#main a {
+
+}
+
+#main a:link {
+    color: #72A6D6;
+	text-decoration: none;
+}
+
+#main a:visited {
+    color: #B686DA;
+	text-decoration: none;
+}
+
+#main a:hover {
+	text-decoration: underline;
+}
+
+#main a:active {
+    color: #F19B61;
+	text-decoration: underline;
+}
+#main ul {
+	list-style: circle inside;
+}
+
+#main li {
+	margin: .5em .5em 0 2em; /* 20 / 16 = 1.25 */
+	font-size: .9em;
+}
+#opener {
+	color: grey;
+	font-style: italic;
+	letter-spacing: .075em;
+	margin-bottom: 1em;
+}
+
+#left {
+	width: 65%;
+}
+
+#Projects {
+	padding-top: .5em;
+	clear:both;
+}
+
+#Projects img {
+	display: inline;
+	max-width: 45%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#footer {
+	height: 30em;
+	clear: both;
+}
+
+/* -------Classes--------- */
